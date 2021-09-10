@@ -1,0 +1,240 @@
+{
+    "info": {
+        "year": "2021",
+        "version": "2",
+        "description": "Exported from roboflow.ai",
+        "contributor": "",
+        "url": "https://public.roboflow.ai/object-detection/undefined",
+        "date_created": "2021-09-10T08:38:06+00:00"
+    },
+    "licenses": [
+        {
+            "id": 1,
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "name": "CC BY 4.0"
+        }
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "Dino",
+            "supercategory": "Dino"
+        },
+        {
+            "id": 1,
+            "name": "Bird",
+            "supercategory": "Bird"
+        },
+        {
+            "id": 2,
+            "name": "Cactus",
+            "supercategory": "Cactus"
+        }
+    ],
+    "images": [
+        {
+            "id": 0,
+            "license": 1,
+            "file_name": "Dino0132_jpg.rf.b273f2b920518677b1c2b775edd762c1.jpg",
+            "height": 300,
+            "width": 300,
+            "date_captured": "2021-09-10T08:38:06+00:00"
+        },
+        {
+            "id": 1,
+            "license": 1,
+            "file_name": "Dino0131_jpg.rf.c435856767be109743220ac5e9885ee5.jpg",
+            "height": 300,
+            "width": 300,
+            "date_captured": "2021-09-10T08:38:06+00:00"
+        },
+        {
+            "id": 2,
+            "license": 1,
+            "file_name": "Dino0019_jpg.rf.37ef31b749086ea7e02e31f1f2323387.jpg",
+            "height": 300,
+            "width": 300,
+            "date_captured": "2021-09-10T08:38:06+00:00"
+        },
+        {
+            "id": 3,
+            "license": 1,
+            "file_name": "Dino0024_jpg.rf.1340cd035d92eaa7abd0bf308f93525d.jpg",
+            "height": 300,
+            "width": 300,
+            "date_captured": "2021-09-10T08:38:06+00:00"
+        },
+        {
+            "id": 4,
+            "license": 1,
+            "file_name": "Dino0036_jpg.rf.3f7151f9201e7a928775b23d07036cf3.jpg",
+            "height": 300,
+            "width": 300,
+            "date_captured": "2021-09-10T08:38:06+00:00"
+        },
+        {
+            "id": 5,
+            "license": 1,
+            "file_name": "Dino0079_jpg.rf.01036bf0334c238ef22d85299c9339b9.jpg",
+            "height": 300,
+            "width": 300,
+            "date_captured": "2021-09-10T08:38:06+00:00"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 0,
+            "image_id": 0,
+            "category_id": 0,
+            "bbox": [
+                37,
+                134,
+                42,
+                46
+            ],
+            "area": 1932,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 1,
+            "image_id": 0,
+            "category_id": 1,
+            "bbox": [
+                93,
+                198,
+                44,
+                29
+            ],
+            "area": 1276,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "category_id": 0,
+            "bbox": [
+                37,
+                191,
+                42,
+                45
+            ],
+            "area": 1890,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [
+                161,
+                203,
+                45,
+                33
+            ],
+            "area": 1485,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 2,
+            "category_id": 0,
+            "bbox": [
+                37,
+                190,
+                42,
+                45
+            ],
+            "area": 1890,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 5,
+            "image_id": 3,
+            "category_id": 0,
+            "bbox": [
+                37,
+                169,
+                43,
+                46
+            ],
+            "area": 1978,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 6,
+            "image_id": 3,
+            "category_id": 2,
+            "bbox": [
+                124,
+                187,
+                77,
+                51
+            ],
+            "area": 3927,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 7,
+            "image_id": 4,
+            "category_id": 0,
+            "bbox": [
+                36,
+                190,
+                43,
+                44
+            ],
+            "area": 1892,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 8,
+            "image_id": 4,
+            "category_id": 1,
+            "bbox": [
+                237,
+                197,
+                45,
+                31
+            ],
+            "area": 1395,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 9,
+            "image_id": 5,
+            "category_id": 0,
+            "bbox": [
+                37,
+                191,
+                43,
+                44
+            ],
+            "area": 1892,
+            "segmentation": [],
+            "iscrowd": 0
+        },
+        {
+            "id": 10,
+            "image_id": 5,
+            "category_id": 2,
+            "bbox": [
+                132,
+                186,
+                53,
+                48
+            ],
+            "area": 2544,
+            "segmentation": [],
+            "iscrowd": 0
+        }
+    ]
+}
