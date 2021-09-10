@@ -316,9 +316,9 @@ if __name__ == "__main__":
     model.to(device)
     image_paths = get_images(args.data_path)
 
-    #infer(image_paths, model, postprocessors, device, args.output_dir)
-    while True:
-        image_np, (width, height) = resize(capture_screenshot(x=0, y=0, w=200, h=200), percent=0.8)
-        infer_image(image_np, model, postprocessors, device, args.output_dir)
-        if cv2.waitKey() == ord('a'):
-            break
+    infer(image_paths, model, postprocessors, device, args.output_dir)
+    #while True:
+    #    image_np, (width, height) = resize(capture_screenshot(x=0, y=0, w=200, h=200), percent=0.8)
+    #    infer_image(image_np, model, postprocessors, device, args.output_dir)
+    #    if cv2.waitKey() == ord('a'):
+    #        break
